@@ -1,0 +1,100 @@
+.todolist {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin: auto;
+    align-items: center;
+    padding: 0px;
+    height: 350px;
+    width: 350px;
+    color: aliceblue;
+
+
+
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    padding-left: 25px;
+}
+
+input {
+
+    height: 30px;
+    width: 200px;
+    border-radius: 7px;
+    border: none;
+    background-color: hsl(0, 22%, 96%);
+    font-weight: bolder;
+    padding-left: 10px;
+
+
+}
+
+button {
+    background-color: hsl(120, 90%, 40%);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    font-weight: bold;
+
+
+}
+
+button:hover {
+    background-color: hsl(120, 94%, 21%);
+
+}
+
+.list {
+
+    font-size: 20px;
+    /* background-color:hsl(0, 22%, 96%); */
+    margin-top: 20px;
+    padding: 0px;
+    color: black;
+    border-radius: 5px;
+}
+
+li {
+    background-color: hsl(0, 4%, 84%);
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.text {
+    flex: 1;
+}
+
+li:hover {
+    background-color: hsl(0, 4%, 64%);
+
+}
+
+button {
+    margin-left: 10px;
+
+}
+
+.delete-task {
+    background-color: rgb(240, 8, 8);
+    color: aliceblue;
+}
+
+.delete-task:hover {
+    background-color: rgb(166, 8, 8);
+}
+
+.move-task {
+    background-color: hsl(180, 52%, 45%);
+}
